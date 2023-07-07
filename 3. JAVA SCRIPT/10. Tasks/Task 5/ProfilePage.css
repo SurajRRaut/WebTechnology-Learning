@@ -1,0 +1,66 @@
+section{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background:linear-gradient(to bottom,maroon,black);
+    align-items: center;
+    justify-content: center;
+}
+#p1{
+    height: 520px;
+    width: 310px;
+    border-style:inset;
+    border-color:white;
+    border-width: 0.06cm;
+    background:linear-gradient(to bottom,purple,black);
+    border-radius: 5%;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#p1:hover{
+    background:linear-gradient(to top,black,navy);
+}
+p:hover{
+    color:orangered;
+}
+#p2{
+    height: 50px;
+    width: 310px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    height: 15px;
+    width: 15px;
+    background-color:antiquewhite;
+    transition-duration: 2s;
+}
+img{
+    border-style: dashed;
+    border-color:white;
+    border-width: 0.07cm;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px; 
+}
+img:hover{
+    content: url(https://media.kulfyapp.com/0TFI1X/0TFI1X-360.gif);
+}
+
+/* new */
+#k1{
+    color: blue;
+}
+/* also we can done by onclick */
+#k1:focus{
+    color: red;
+}
+#t1{
+    top: 0;
+    padding: 200px;
+    position: absolute;
+}

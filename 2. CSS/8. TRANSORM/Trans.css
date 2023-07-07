@@ -1,0 +1,32 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    transform: rotate(0deg);
+}
+
+/* OR */
+div:hover{
+    transform: rotate(360deg);
+    background-color: red;
+    transition-delay: 5s;
+    border-radius: 50%;
+    transition-duration: 10s;
+    transition-timing-function: ease-in-out;
+}
+
+/* OR */
+
+/* div:hover{
+    transform: rotate(50deg);
+} */
+/* div:hover{
+    transform: scale(1.5);
+} */
+/* div:hover{
+    transform: skew(30deg);
+} */
+/* first is or X-Direction and second is for Y-Dirrection */
+/* div:hover{
+    transform: translate(100px,200px);
+} */

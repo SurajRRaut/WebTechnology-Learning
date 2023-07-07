@@ -1,0 +1,18 @@
+h1{
+    /* its take to all size */
+    padding: 10px;
+    /* the first is for top-bottom and second is right-left 
+    padding: 10px 20px; */
+    /* its take for all side
+    border: 10px; */
+    border-top: 10px solid red;
+    border-bottom: 20px double blue;
+    border-left: 10px dotted orange;
+    border-right: 10px dotted green;
+    /* its take for all side
+    margin: 10px; */
+    margin-top:10px ;
+    margin-right: 30px;
+    margin-left:20px ;
+    margin-bottom: 50px;
+}

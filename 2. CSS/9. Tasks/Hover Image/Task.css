@@ -1,0 +1,22 @@
+p{
+    text-shadow:10px 10px 10px white;
+}
+p:hover{
+ color:aqua
+}
+h1:hover{
+    text-shadow:10px 10px 10px black;
+    color: red;
+}
+
+section{
+    background: url(https://cdn.pixabay.com/photo/2023/04/30/14/52/countryside-7960674__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+section:hover{
+    background: url(https://cdn.pixabay.com/photo/2023/04/24/03/16/camping-7947056__340.jpg);
+    background-size: cover;
+}

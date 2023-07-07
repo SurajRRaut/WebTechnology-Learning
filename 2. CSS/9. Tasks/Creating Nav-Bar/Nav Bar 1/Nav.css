@@ -1,0 +1,17 @@
+section{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+nav{
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}

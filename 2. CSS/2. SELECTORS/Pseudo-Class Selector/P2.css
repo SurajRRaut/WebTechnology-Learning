@@ -1,0 +1,43 @@
+/* p:first-child{
+    color: crimson;
+}
+p:first-of-type{
+    background-color: black;
+}
+p:last-child{
+    color: green;
+}*
+p:last-of-type{
+    background-color: peru;
+} */
+
+
+
+p:nth-child(odd){
+    color: red;
+}
+
+
+
+/* a:visited{
+    color:orange
+}
+a:link{
+    color: green;
+}
+a:active{
+    color: black;
+}
+p:hover{
+    color: yellow;
+    background-color: navy;
+}
+img{
+    display: none;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+div:hover img{
+    display:block
+} */

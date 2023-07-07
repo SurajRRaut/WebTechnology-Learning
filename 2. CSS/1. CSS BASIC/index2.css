@@ -1,0 +1,5 @@
+@import url("./index.html");
+p{
+    font-size: 30px;
+    cursor: pointer;
+}

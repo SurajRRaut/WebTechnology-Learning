@@ -1,0 +1,16 @@
+section{
+    height: 70vh;
+    width: 100%;
+    background-color: red;
+    /* convert into flex from block level to inline by using flex value  */
+    display: flex;
+    /* this is for moving horizontal */
+    justify-content:end ;
+    /* this is for vertical */
+    align-items: end;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}

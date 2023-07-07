@@ -1,0 +1,26 @@
+section{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+div{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:blue;
+    align-items: center;
+    justify-content: center;
+}
+#box2{
+    color:red; 
+}

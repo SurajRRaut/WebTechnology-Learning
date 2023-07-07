@@ -1,0 +1,9 @@
+h1{
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* for thicknes */
+    font-weight:50; 
+    font-style:italic ;
+    /* which helps to convert lower case to upper case with the same font size */
+    font-variant:small-caps; 
+}

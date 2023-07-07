@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    /* Opacity start from 0-0.9  */
+    opacity: 0.7;
+    color: whitesmoke;
+}
+.container{
+    position: absolute;
+    z-index: -1;
+}

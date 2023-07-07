@@ -1,0 +1,19 @@
+p::first-line{
+    background-color: aqua;
+}
+p::first-letter{
+    font-size: 70px;
+}
+p::after{
+    content: url(https://em-content.zobj.net/source/skype/289/smiling-face-with-smiling-eyes_1f60a.png);
+}
+p::before{
+    content: url(https://em-content.zobj.net/source/skype/289/smiling-face-with-smiling-eyes_1f60a.png);
+}
+p::selection{
+    color: aqua;
+    background-color: black;
+}
+li::marker{
+    color: blue;
+}

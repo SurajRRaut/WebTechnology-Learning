@@ -1,0 +1,2 @@
+Grid : 
+    the grid is same as flex which is used in Bootstrap (flex is an - single diamensional) & (Grid is an - Two diamesional)!

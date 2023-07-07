@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    line-height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+#check,.checked{
+    display: none;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 1s;
+}
+@media screen and (max-width:800px) {
+    .list{
+       height:90vh ;
+       width: 100%;
+       background: black; 
+       display: flex;
+       flex-direction: column;
+       position: fixed;
+       top: 70px;
+       left: 100%;
+       transition: all 1s;
+    }
+    .checked{
+        display: block;
+    }
+    #check:checked~ul{
+        left: 70%;
+    }
+}

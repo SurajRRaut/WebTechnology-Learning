@@ -1,0 +1,38 @@
+section{
+    height: 20vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    gap: 30PX;
+    position: sticky;
+    top: 0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+/* #div2{
+    position: static;
+    top: 100px;
+    bottom: 200px;
+} */
+/* #div2{
+    position: relative;
+    top: 100px;
+} */
+/* #div2{
+    position: absolute;
+    top: 200px;
+} */
+/* #div2{
+    position: fixed;
+    top: 550px;
+    left: 92%;
+} */
+
+p{
+    color: red;
+}

@@ -1,0 +1,20 @@
+@import url(./B2.css);
+/* section{
+    background-color: aquamarine;
+    height: 100vh;
+} */
+/* this is for horizontal line colors...for verticle use the :90degree or to left as shown in below */
+/* section{
+    background:linear-gradient(to left,purple,green,black);
+    height: 100vh;
+} */
+/* section{
+    background:radial-gradient(purple,orange,black);
+    height: 90vh;
+} */
+/* h1{
+    font-size: 100px;
+    color: white;
+} */
+
+

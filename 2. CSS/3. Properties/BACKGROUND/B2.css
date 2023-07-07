@@ -1,0 +1,12 @@
+/* for adding image in background */
+section{
+    background: url(https://cdn.pixabay.com/photo/2023/04/30/14/52/countryside-7960674__340.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+h1{
+    color: aqua;
+    font-size: 100px;
+}
